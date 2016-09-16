@@ -1,0 +1,8 @@
+prefix=/home/jeff/rviz_sat/devel
+
+Name: rviz_satellite
+Description: Description of rviz_satellite
+Version: 0.0.2
+Cflags: 
+Libs: -L/home/jeff/rviz_sat/devel/lib 
+Requires: nav_msgs sensor_msgs

@@ -1,0 +1,2 @@
+nmea_navsat_driver:rviz_satellite
+-DCATKIN_DEVEL_PREFIX=/home/jeff/rviz_sat/devel -DCMAKE_INSTALL_PREFIX=/home/jeff/rviz_sat/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="nmea_navsat_driver" type="nmea_serial_driver" name="navsat" respawn="true">
+       <param name="port" value="/dev/ttyUSB4"/>
+       <param name="baud" value="4800"/>
+    </node>
+    
+</launch>

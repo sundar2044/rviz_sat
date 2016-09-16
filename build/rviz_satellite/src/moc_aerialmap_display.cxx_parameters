@@ -1,0 +1,16 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtNetwork
+-I/usr/include/qt4/QtCore
+-I/usr/include/opencv
+-I/usr/include
+-DROS_BUILD_SHARED_LIBS=1
+-DQT_NO_DEBUG
+-DQT_GUI_LIB
+-DQT_NETWORK_LIB
+-DQT_CORE_LIB
+-DROS_PACKAGE_NAME="rviz_satellite"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/jeff/rviz_sat/build/rviz_satellite/src/moc_aerialmap_display.cxx
+/home/jeff/rviz_sat/src/rviz_satellite/src/aerialmap_display.h
